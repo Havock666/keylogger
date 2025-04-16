@@ -1,0 +1,25 @@
+2025-04-16 14:28:39,200: Key.esc
+2025-04-16 14:28:42,110: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "pynput\_util\__init__.py", line 230, in inner
+  File "pynput\keyboard\_win32.py", line 332, in _process
+  File "pynput\_util\__init__.py", line 146, in inner
+  File "pynput\_util\__init__.py", line 291, in <lambda>
+  File "logger.py", line 91, in on_release
+  File "logger.py", line 67, in send_email
+  File "smtplib.py", line 750, in login
+  File "smtplib.py", line 739, in login
+  File "smtplib.py", line 662, in auth
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4405b526ee9sm21477635e9.32 - gsmtp')
+2025-04-16 14:28:42,131: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "pynput\_util\__init__.py", line 230, in inner
+  File "pynput\keyboard\_win32.py", line 332, in _process
+  File "pynput\_util\__init__.py", line 146, in inner
+  File "pynput\_util\__init__.py", line 291, in <lambda>
+  File "logger.py", line 91, in on_release
+  File "logger.py", line 67, in send_email
+  File "smtplib.py", line 750, in login
+  File "smtplib.py", line 739, in login
+  File "smtplib.py", line 662, in auth
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-39eaf43d046sm17538756f8f.63 - gsmtp')
